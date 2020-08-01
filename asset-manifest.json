@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/marctsivanyo.github.io/opAuPaysV1-React/static/css/main.f09383b2.chunk.css",
-    "main.js": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/main.eff01265.chunk.js",
-    "main.js.map": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/main.eff01265.chunk.js.map",
-    "runtime-main.js": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/runtime-main.e4148593.js",
-    "runtime-main.js.map": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/runtime-main.e4148593.js.map",
-    "static/css/2.c3594674.chunk.css": "/marctsivanyo.github.io/opAuPaysV1-React/static/css/2.c3594674.chunk.css",
-    "static/js/2.d466ea29.chunk.js": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/2.d466ea29.chunk.js",
-    "static/js/2.d466ea29.chunk.js.map": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/2.d466ea29.chunk.js.map",
-    "index.html": "/marctsivanyo.github.io/opAuPaysV1-React/index.html",
-    "precache-manifest.6b07bf488c11b434e1319b40c722014c.js": "/marctsivanyo.github.io/opAuPaysV1-React/precache-manifest.6b07bf488c11b434e1319b40c722014c.js",
-    "service-worker.js": "/marctsivanyo.github.io/opAuPaysV1-React/service-worker.js",
-    "static/css/2.c3594674.chunk.css.map": "/marctsivanyo.github.io/opAuPaysV1-React/static/css/2.c3594674.chunk.css.map",
-    "static/css/main.f09383b2.chunk.css.map": "/marctsivanyo.github.io/opAuPaysV1-React/static/css/main.f09383b2.chunk.css.map",
-    "static/js/2.d466ea29.chunk.js.LICENSE.txt": "/marctsivanyo.github.io/opAuPaysV1-React/static/js/2.d466ea29.chunk.js.LICENSE.txt"
+    "main.css": "/opAuPaysV1-React/static/css/main.f09383b2.chunk.css",
+    "main.js": "/opAuPaysV1-React/static/js/main.8b221d70.chunk.js",
+    "main.js.map": "/opAuPaysV1-React/static/js/main.8b221d70.chunk.js.map",
+    "runtime-main.js": "/opAuPaysV1-React/static/js/runtime-main.7ae57192.js",
+    "runtime-main.js.map": "/opAuPaysV1-React/static/js/runtime-main.7ae57192.js.map",
+    "static/css/2.c3594674.chunk.css": "/opAuPaysV1-React/static/css/2.c3594674.chunk.css",
+    "static/js/2.d466ea29.chunk.js": "/opAuPaysV1-React/static/js/2.d466ea29.chunk.js",
+    "static/js/2.d466ea29.chunk.js.map": "/opAuPaysV1-React/static/js/2.d466ea29.chunk.js.map",
+    "index.html": "/opAuPaysV1-React/index.html",
+    "precache-manifest.6c61912d7c82c30cbda766fd39a3e42b.js": "/opAuPaysV1-React/precache-manifest.6c61912d7c82c30cbda766fd39a3e42b.js",
+    "service-worker.js": "/opAuPaysV1-React/service-worker.js",
+    "static/css/2.c3594674.chunk.css.map": "/opAuPaysV1-React/static/css/2.c3594674.chunk.css.map",
+    "static/css/main.f09383b2.chunk.css.map": "/opAuPaysV1-React/static/css/main.f09383b2.chunk.css.map",
+    "static/js/2.d466ea29.chunk.js.LICENSE.txt": "/opAuPaysV1-React/static/js/2.d466ea29.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4148593.js",
+    "static/js/runtime-main.7ae57192.js",
     "static/css/2.c3594674.chunk.css",
     "static/js/2.d466ea29.chunk.js",
     "static/css/main.f09383b2.chunk.css",
-    "static/js/main.eff01265.chunk.js"
+    "static/js/main.8b221d70.chunk.js"
   ]
 }
