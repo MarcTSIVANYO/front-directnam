@@ -3,6 +3,10 @@
 import React, { Component } from 'react'; 
 
 class Tarif extends Component {
+
+   onFirstNamePaste(value){
+     return value.split(' ').join('');
+}
   render() {
     return (
         <div> 
@@ -33,7 +37,7 @@ class Tarif extends Component {
                               <li className="list-group-item">+ frais de services</li> 
                             </ul>
                             <h4 className="card-title">  Prix : {d.euro} &euro; </h4>
-                            <a href="te#" className="btn">Commander</a>
+                            <a href={'?envoie='+this.onFirstNamePaste(d.cfa)+'&prix='+ d.euro} className="btn">Commander</a>
                           </div>
                       </div> 
                     </div>

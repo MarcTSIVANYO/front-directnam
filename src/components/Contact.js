@@ -24,10 +24,10 @@ getYear() {
   ============================*/}
 
       <footer id="footer">
-        <div className="footer-top">
+        {/* <div className="footer-top">
           <div className="container">
             <div className="row">
-              {/* <div className="col-lg-4"> 
+              <div className="col-lg-4"> 
                 <div className="footer-links">
                   <h4>Contact Us</h4>
                   <p>
@@ -44,11 +44,11 @@ getYear() {
                   <a href="#" className="instagram"><i className="fa fa-instagram" /></a>
                   <a href="#" className="linkedin"><i className="fa fa-linkedin" /></a>
                 </div> 
-              </div> */}
+              </div>
               <div className="col-lg-12 text-center">
                 <div className="form">
                   <h4>Envoyer un message</h4>
-                  {/* <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p> */}
+                  <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
                   <form  method="post" role="form" className="contactForm">
                     <div className="form-group">
                       <input type="text" name="name" className="form-control" id="name" placeholder="Votre nom & prénoms" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -74,10 +74,10 @@ getYear() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container">
           <div className="copyright">
-            © {this.getYear()} <strong>Opération au pays</strong>. All Rights Reserved 
+            © {this.getYear()} <strong>Opération au pays</strong>. All Rights Reserved. <a href="#" title="Conditions générales">CGU & CGV</a> 
           </div>
           <div className="credits"> 
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>

@@ -8,11 +8,11 @@ export class Testimonials extends Component {
             {      
               return (   
                   <div>   
-                     <section id="testimonials" className="section-bg">
-                  <div className="container" >
-                    <header className="section-header">
-                      <h3>Ce que disent nos clients</h3>
-                    </header>
+                     <section id="testimonials" >
+                      <div className="container" >
+                        <header className="section-header">
+                          <h3>Ce que disent nos clients</h3>
+                        </header>
                     {/* <div className="row justify-content-center">
                       <div className="col-lg-8">
                       <div className='container-fluid' >    
@@ -54,31 +54,31 @@ export class Testimonials extends Component {
                       </div>
                     </div>
                      */}
-                  <div className="row">
-                    {this.props.data
-                      ? this.props.data.map((d, i) => (
-                          <div key={`${d.name}-${i}`} className="col-md-3">
-                            <div className="testimonial">
-                              <div className="testimonial-image">
-                                {" "}
-                                <img src={d.img} alt="" />{" "}
-                              </div>
-                              <div className="testimonial-content">
-                                <p>{d.text}</p>
-                                <div className="testimonial-meta"> - {d.name} </div>
-                                <div className="text-warning">
-                                  <i className="fa fa-star"> </i>
-                                  <i className="fa fa-star"> </i>
-                                  <i className="fa fa-star"> </i>
-                                  <i className="fa fa-star"> </i>
-                                </div>
-                              </div>
-                            </div>
+                          <div className="row">
+                            {this.props.data
+                              ? this.props.data.map((d, i) => (
+                                  <div key={`${d.name}-${i}`} className="col-md-3">
+                                    <div className="testimonial">
+                                      <div className="testimonial-image">
+                                        {" "}
+                                        <img src={d.img} alt="" />{" "}
+                                      </div>
+                                      <div className="testimonial-content">
+                                        <p>{d.text}</p>
+                                        <div className="testimonial-meta"> - {d.name} </div>
+                                        <div className="text-warning">
+                                          <i className="fa fa-star"> </i>
+                                          <i className="fa fa-star"> </i>
+                                          <i className="fa fa-star"> </i>
+                                          <i className="fa fa-star"> </i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))
+                              : "loading"}
                           </div>
-                        ))
-                      : "loading"}
-                  </div>
-                  </div>
+                        </div>
                 </section>{/* #testimonials */} 
           </div>   
               )   

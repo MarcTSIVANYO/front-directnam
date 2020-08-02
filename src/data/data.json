@@ -21,32 +21,32 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Transfert d'argent",
+            "icon": "fa fa-share",
+            "name": "Transfert d'argent vers Tmoney ou Flooz",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Recharge de crédit mobile",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
+            "icon": "fa fa-phone-square",
             "name": "Recharge de forfait appel mobile",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-language",
+            "icon": "fa fa-building-o",
+            "name": "Recharge de crédit mobile",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-globe",
             "name": "Recharge de forfait internet mobile",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-plane",
-            "name": "Paiement de factures",
+            "icon": "fa fa-file",
+            "name": "Paiement de factures depuis l'etranger",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-pie-chart",
+            "icon": "fa fa-cart-arrow-down",
             "name": "Paiement auprès d’un commerçant",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         }
@@ -137,22 +137,22 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "ion-ios-analytics-outline",
+            "icon": "fa fa-mobile",
             "title": "Numéro",
             "text": "Saisissez le numéro Flooz ou Tmoney et votre message au destinataire."
         },
         {
-            "icon": "ion-ios-analytics-outline",
+            "icon": "fa fa-money",
             "title": "Montant",
             "text": "Choisissez le montant et le type d’opération du transfert ."
         },
         {
-            "icon": "ion-ios-analytics-outline",
+            "icon": "fa fa-check-square-o",
             "title": "Confirmation",
             "text": "Confirmez le numéro du destinaire avant le règlement."
         },
         {
-            "icon": "ion-ios-analytics-outline",
+            "icon": "fa fa-credit-card",
             "title": "Règlement",
             "text": "Réglez votre opération avec votre carte bancaire, virement bancaire."
         }

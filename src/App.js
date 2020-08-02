@@ -34,8 +34,7 @@ export class App extends Component {
           <Why /> 
         <Testimonials data={this.state.landingPageData.Testimonials} />
 
-        {/* <Transfert data={this.state.landingPageData.Transfert} /> */}
-         <Statistique/> 
+        {/* <Transfert data={this.state.landingPageData.Transfert} /> */} 
         <Tarif data={this.state.landingPageData.Tarif}/> 
         {/* <Faq/>  */} 
         <Contact data={this.state.landingPageData.Contact} />
