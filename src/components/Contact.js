@@ -1,6 +1,7 @@
 // Home.js
 
 import React, { Component } from 'react'; 
+import Action from './Action';
 
 class Home extends React.Component {
   fSubmit = (e) =>{
@@ -8,19 +9,25 @@ class Home extends React.Component {
 
      
   }
+   
+getYear() {
+  return new Date().getFullYear();
+}
 
   render() {
     return (
         <div id="contact">   
+        
+        <Action titre="Rapides et moins chers" description="Envoyez de l'argent à vos proches au Togo. Payez en ligne, et votre bénéficiaire peut retirer l'argent instantanément dans une agence Flooz ou Tmoney." btnName="Faire un transfert!"/>
           {/*==========================
     Footer
   ============================*/}
 
-      <footer id="footer" className="section-bg">
+      <footer id="footer">
         <div className="footer-top">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4"> 
+              {/* <div className="col-lg-4"> 
                 <div className="footer-links">
                   <h4>Contact Us</h4>
                   <p>
@@ -37,31 +44,31 @@ class Home extends React.Component {
                   <a href="#" className="instagram"><i className="fa fa-instagram" /></a>
                   <a href="#" className="linkedin"><i className="fa fa-linkedin" /></a>
                 </div> 
-              </div>
-              <div className="col-lg-8">
+              </div> */}
+              <div className="col-lg-12 text-center">
                 <div className="form">
-                  <h4>Send us a message</h4>
-                  <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
+                  <h4>Envoyer un message</h4>
+                  {/* <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p> */}
                   <form  method="post" role="form" className="contactForm">
                     <div className="form-group">
-                      <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <input type="text" name="name" className="form-control" id="name" placeholder="Votre nom & prénoms" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                       <div className="validation" />
                     </div>
                     <div className="form-group">
-                      <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <input type="email" className="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email" />
                       <div className="validation" />
                     </div>
                     <div className="form-group">
-                      <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <input type="text" className="form-control" name="subject" id="subject" placeholder="Objet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                       <div className="validation" />
                     </div>
                     <div className="form-group">
-                      <textarea className="form-control" name="message" rows={5} data-rule="required" data-msg="Please write something for us" placeholder="Message" defaultValue={""} />
+                      <textarea className="form-control" name="message" rows={5} data-rule="required" data-msg="Please write something for us" placeholder="Messages" defaultValue={""} />
                       <div className="validation" />
                     </div>
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
                     <div id="errormessage" />
-                    <div className="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                    <div className="text-center"><button type="submit" title="Send Message">Envoyer</button></div>
                   </form>
                 </div>
               </div>
@@ -70,7 +77,7 @@ class Home extends React.Component {
         </div>
         <div className="container">
           <div className="copyright">
-            © Copyright <strong>Rapid</strong>. All Rights Reserved
+            © {this.getYear()} <strong>Opération au pays</strong>. All Rights Reserved 
           </div>
           <div className="credits"> 
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>

@@ -11,9 +11,9 @@ export class Testimonials extends Component {
                      <section id="testimonials" className="section-bg">
                   <div className="container" >
                     <header className="section-header">
-                      <h3>Testimonials</h3>
+                      <h3>Ce que disent nos clients</h3>
                     </header>
-                    <div className="row justify-content-center">
+                    {/* <div className="row justify-content-center">
                       <div className="col-lg-8">
                       <div className='container-fluid' >    
                       <OwlCarousel items={1} margin={8} autoplay ={true} >    
@@ -53,31 +53,33 @@ export class Testimonials extends Component {
                       </div>   
                       </div>
                     </div>
+                     */}
+                  <div className="row">
+                    {this.props.data
+                      ? this.props.data.map((d, i) => (
+                          <div key={`${d.name}-${i}`} className="col-md-3">
+                            <div className="testimonial">
+                              <div className="testimonial-image">
+                                {" "}
+                                <img src={d.img} alt="" />{" "}
+                              </div>
+                              <div className="testimonial-content">
+                                <p>{d.text}</p>
+                                <div className="testimonial-meta"> - {d.name} </div>
+                                <div className="text-warning">
+                                  <i className="fa fa-star"> </i>
+                                  <i className="fa fa-star"> </i>
+                                  <i className="fa fa-star"> </i>
+                                  <i className="fa fa-star"> </i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))
+                      : "loading"}
+                  </div>
                   </div>
                 </section>{/* #testimonials */} 
-                <section id="why-us" className="wow fadeIn">
-           
-                <div className="container" >
-                  <div className="row counters">
-                    <div className="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">274</span>
-                      <p>Clients</p>
-                    </div>
-                    <div className="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">421</span>
-                      <p>Projects</p>
-                    </div>
-                    <div className="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">1,364</span>
-                      <p>Hours Of Support</p>
-                    </div>
-                    <div className="col-lg-3 col-6 text-center">
-                      <span data-toggle="counter-up">18</span>
-                      <p>Hard Workers</p>
-                    </div>
-                  </div>
-                </div>
-              </section>
           </div>   
               )   
             }   

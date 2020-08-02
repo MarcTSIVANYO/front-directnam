@@ -13,70 +13,33 @@ class Tarif extends Component {
         <section id="pricing" className="wow fadeInUp section-bg">
           <div className="container">
             <header className="section-header">
-              <h3>Pricing</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            <h3>Tarif de transfert d'argent </h3>
+            <p> Flooz & Tmoney </p>
             </header>
             <div className="row flex-items-xs-middle flex-items-xs-center">
               {/* Basic Plan  */}
-              <div className="col-xs-12 col-lg-4">
-                <div className="card">
-                  <div className="card-header">
-                    <h3><span className="currency">$</span>19<span className="period">/month</span></h3>
-                  </div>
-                  <div className="card-block">
-                    <h4 className="card-title"> 
-                      Basic Plan
-                    </h4>
-                    <ul className="list-group">
-                      <li className="list-group-item">Odio animi voluptates</li>
-                      <li className="list-group-item">Inventore quisquam et</li>
-                      <li className="list-group-item">Et perspiciatis suscipit</li>
-                      <li className="list-group-item">24/7 Support System</li>
-                    </ul>
-                    <a href="#" className="btn">Choose Plan</a>
-                  </div>
-                </div>
-              </div>
-              {/* Regular Plan  */}
-              <div className="col-xs-12 col-lg-4">
-                <div className="card">
-                  <div className="card-header">
-                    <h3><span className="currency">$</span>29<span className="period">/month</span></h3>
-                  </div>
-                  <div className="card-block">
-                    <h4 className="card-title"> 
-                      Regular Plan
-                    </h4>
-                    <ul className="list-group">
-                      <li className="list-group-item">Odio animi voluptates</li>
-                      <li className="list-group-item">Inventore quisquam et</li>
-                      <li className="list-group-item">Et perspiciatis suscipit</li>
-                      <li className="list-group-item">24/7 Support System</li>
-                    </ul>
-                    <a href="#" className="btn">Choose Plan</a>
-                  </div>
-                </div>
-              </div>
-              {/* Premium Plan  */}
-              <div className="col-xs-12 col-lg-4">
-                <div className="card">
-                  <div className="card-header">
-                    <h3><span className="currency">$</span>39<span className="period">/month</span></h3>
-                  </div>
-                  <div className="card-block">
-                    <h4 className="card-title"> 
-                      Premium Plan
-                    </h4>
-                    <ul className="list-group">
-                      <li className="list-group-item">Odio animi voluptates</li>
-                      <li className="list-group-item">Inventore quisquam et</li>
-                      <li className="list-group-item">Et perspiciatis suscipit</li>
-                      <li className="list-group-item">24/7 Support System</li>
-                    </ul>
-                    <a href="#" className="btn">Choose Plan</a>
-                  </div>
-                </div>
-              </div>
+
+              {this.props.data
+                ? this.props.data.map((d, i) => (
+
+                    <div  key={`${d.name}-${i}`} className="col-md-3 col-sm-4 col-xs-6"> 
+                        <div className="card"  style={{borderBottom: 'solid #413e66'}}>
+                          <div className="card-header">
+                            <h4>{d.cfa} <span className="period">F CFA</span></h4>
+                          </div>
+                          <div className="card-block">
+                            <ul className="list-group">
+                              <li className="list-group-item">+ frais de retrait</li> 
+                              <li className="list-group-item">+ frais de services</li> 
+                            </ul>
+                            <h4 className="card-title">  Prix : {d.euro} &euro; </h4>
+                            <a href="te#" className="btn">Commander</a>
+                          </div>
+                      </div> 
+                    </div>
+                  ))
+                : "loading"}
+  
             </div>
           </div>
         </section>{/* #pricing */}

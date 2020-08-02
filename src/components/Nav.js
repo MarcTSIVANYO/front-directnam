@@ -23,7 +23,7 @@ class Nav extends Component {
         <div className="container">
           <div className="logo float-left">
             {/* Uncomment below if you prefer to use an image logo */}
-            <h1 className="text-light"><a href="#intro" className="scrollto"><span>Rapid</span></a></h1>
+            <h1 className="text-light"><a href="#intro" className="scrollto"><span>Rapido</span></a></h1>
             {/* <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> */}
           </div>
           <nav className="main-nav float-right d-none d-lg-block">
@@ -31,7 +31,6 @@ class Nav extends Component {
               <li className="active"><a href="#intro">Accueil</a></li>
               <li><a href="#about">A Propos</a></li>
               <li><a href="#services">Services</a></li>
-              <li><a href="#testimonials">Avis</a></li>
               <li><a href="#pricing">Tarif</a></li> 
               <li><a href="#contact">Nous contacter</a></li>
             </ul>

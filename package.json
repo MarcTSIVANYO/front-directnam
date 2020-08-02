@@ -1,6 +1,5 @@
 {
-  "name": "op-pays",
-  "homepage": "https://marctsivanyo.github.io/opAuPaysV1-React",
+  "name": "op-pays", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {

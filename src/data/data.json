@@ -1,0 +1,161 @@
+{
+    "Header": {
+
+        "title": "TRANSFERT VERS LE PAYS",
+        "paragraph": "ENVOYEZ DE L'ARGENT DEPUIS L'ÉTRANGER VERS LE TOGO SUR LE COMPTE TMONEY ET FLOOZ DE VOTRE FAMILLE OU PROCHES"
+
+    },
+    "About": {
+        "paragraph": "Fini les problèmes de connexion, d'une file d'attente, d'erreurs d'orthographes, de pièce d'identité, de question/réponse,..., même au village, c'est possible que votre bénéficiaire reçoit directement de l'argent sur son téléphone ! Opération au pays permet d'envoyer facilement de l'argent vers le Togo sur un compte Flooz ou Tmoney",
+        "Why": [
+            "Tranfert d'argent",
+            "Paiement de mega internet",
+            "Paiement de crédit ",
+            "Paiement des forfaits de communication"
+        ],
+        "Why2": [
+            "Retrait sans carte d'identité",
+            "Retrait via son numéro de téléphone",
+            "Facile & Rapide",
+            "Opérations instantanées"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Transfert d'argent",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Recharge de crédit mobile",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Recharge de forfait appel mobile",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Recharge de forfait internet mobile",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Paiement de factures",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Paiement auprès d’un commerçant",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Merci pour le service, je reviens toujours avec des nouvelles commandes. Je recommande à tous\"",
+            "name": "Sylvestre Apetcho"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"C'est très pratique et ultra rapide avec possibilité d'envoyer n'importe quel montant\"",
+            "name": "Belive Ahiatroga"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Service fiable, facile, simple et rapide. C'est très pratique. Je recommande vivement aux visiteurs .\"",
+            "name": "Marc Tsivanyo"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Wao! C'est possible d'acheter du mega à un proche, en plus le transfert rapide et les commissions sont très raisonnable.\"",
+            "name": "Adakou Amegan"
+        } 
+    ],
+    "Team": [{
+            "img": "img/tmoney.png",
+            "name": "Tmoney",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Tarif": [
+        {
+          "cfa": "5 000",
+          "euro": 9
+        },
+        {
+          "cfa": "10 000",
+          "euro": 17
+        },
+        {
+          "cfa": "15 000",
+          "euro": 26
+        },
+        {
+          "cfa": "20 000",
+          "euro": 34
+        }, 
+        {
+          "cfa": "30 000",
+          "euro": 52
+        },
+        {
+          "cfa": "50 000",
+          "euro": 82
+        },
+        {
+          "cfa": "65 000",
+          "euro": 105
+        }, 
+        {
+          "cfa": "100 000",
+          "euro": 159
+        }
+       ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "ion-ios-analytics-outline",
+            "title": "Numéro",
+            "text": "Saisissez le numéro Flooz ou Tmoney et votre message au destinataire."
+        },
+        {
+            "icon": "ion-ios-analytics-outline",
+            "title": "Montant",
+            "text": "Choisissez le montant et le type d’opération du transfert ."
+        },
+        {
+            "icon": "ion-ios-analytics-outline",
+            "title": "Confirmation",
+            "text": "Confirmez le numéro du destinaire avant le règlement."
+        },
+        {
+            "icon": "ion-ios-analytics-outline",
+            "title": "Règlement",
+            "text": "Réglez votre opération avec votre carte bancaire, virement bancaire."
+        }
+        
+    ]
+}
