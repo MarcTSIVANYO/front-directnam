@@ -17,7 +17,7 @@ class Action extends Component {
                 <p className="cta-text"> {this.props.description}</p>
               </div>
               <div className="col-lg-3 cta-btn-container text-center">
-                <a className="cta-btn align-middle" href="#">{this.props.btnName}</a>
+                <a className="cta-btn align-middle" href="app/login">{this.props.btnName}</a>
               </div>
             </div>
           </div>

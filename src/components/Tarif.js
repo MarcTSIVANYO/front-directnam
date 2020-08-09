@@ -37,7 +37,8 @@ class Tarif extends Component {
                               <li className="list-group-item">+ frais de services</li> 
                             </ul>
                             <h4 className="card-title">  Prix : {d.euro} &euro; </h4>
-                            <a href={'/login/?envoie='+this.onFirstNamePaste(d.cfa)+'&prix='+ d.euro} className="btn">Commander</a>
+                            {/* <a href={'/login/?envoie='+this.onFirstNamePaste(d.cfa)+'&prix='+ d.euro} className="btn">Commander</a> */}
+                            <a href="app/login" className="btn">Commander</a>
                           </div>
                       </div> 
                     </div>
