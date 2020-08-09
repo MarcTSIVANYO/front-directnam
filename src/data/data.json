@@ -144,12 +144,12 @@
         {
             "icon": "fa fa-money",
             "title": "Montant",
-            "text": "Choisissez le montant et le type d’opération du transfert ."
+            "text": "Choisissez le montant à envoyer et le type d’opération du transfert ."
         },
         {
             "icon": "fa fa-check-square-o",
             "title": "Confirmation",
-            "text": "Confirmez le numéro du destinaire avant le règlement."
+            "text": "Confirmez le numéro du destinaire et le montant avant le règlement."
         },
         {
             "icon": "fa fa-credit-card",

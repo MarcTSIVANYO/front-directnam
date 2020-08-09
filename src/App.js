@@ -13,7 +13,35 @@ import Faq from './components/Faq';
 import Why from './components/Why'; 
 import Statistique from './components/Statistique';
 
+// let github_link = 'https://marctsivanyo.github.io/apis/dataOperation.json';
+// $.getJSON(github_link, function(data) {
+//      //data is the JSON string
+//      console.log(data);
+// });
+
+  function load(url) {
+    return new Promise(function(resolve, reject) {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.async = true;
+      script.src = url;
+      script.onload = resolve;
+      script.onerror = reject;
+      document.head.appendChild(script);
+    })
+  }
+  
+  load('https://marctsivanyo.github.io/apis/dataOperation.json')
+    .then(function(dataOperation) {
+      console.log(dataOperation);
+    })
+    .catch(function(err) {
+      console.error('Something went wrong!', err);
+    })
+
+
 export class App extends Component {
+
   state = {
     landingPageData: {},
   }

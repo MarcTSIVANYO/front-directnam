@@ -60,18 +60,20 @@ export class Testimonials extends Component {
                                   <div key={`${d.name}-${i}`} className="col-md-3">
                                     <div className="testimonial">
                                       <div className="testimonial-image">
-                                        {" "}
-                                        <img src={d.img} alt="" />{" "}
+                                        {" "} 
                                       </div>
                                       <div className="testimonial-content">
-                                        <p>{d.text}</p>
-                                        <div className="testimonial-meta"> - {d.name} </div>
-                                        <div className="text-warning">
-                                          <i className="fa fa-star"> </i>
-                                          <i className="fa fa-star"> </i>
-                                          <i className="fa fa-star"> </i>
-                                          <i className="fa fa-star"> </i>
-                                        </div>
+                                        <p>{d.text}
+                                          <div className="testimonial-meta"> - {d.name} </div>
+                                          
+                                          <div className="text-warning">
+                                            <i className="fa fa-star"> </i>
+                                            <i className="fa fa-star"> </i>
+                                            <i className="fa fa-star"> </i>
+                                            <i className="fa fa-star"> </i>
+                                            <i className="fa fa-star"> </i>
+                                          </div>
+                                        </p>
                                       </div>
                                     </div>
                                   </div>

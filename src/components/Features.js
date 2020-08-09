@@ -3,11 +3,11 @@ import React, { Component } from "react";
 export class Features extends Component {
   render() {
     return (
-      <div>
+      <div >
         <section id="services" className="section-bg">
-          <div className="container">
+          <div className="container" id="features">
             <header className="section-header">
-              <h3>Opération en 4 étapes</h3>
+              <h3>Comment envoyer de l'argent en 4 étapes</h3>
             </header>
             <div className="row">
             {this.props.data

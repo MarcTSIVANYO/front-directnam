@@ -8,7 +8,7 @@ class Why extends Component {
     return (
         <div>  
         <section id="why-us" className="wow fadeIn">
-          <div className="container">
+          <div className="container text-center">
             <header className="section-header">
               <h3>Pourquoi nous choisir?</h3><br/>
               {/* <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p> */}
