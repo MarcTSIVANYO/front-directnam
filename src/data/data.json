@@ -1,14 +1,13 @@
 {
     "Header": {
-
         "title": "TRANSFERT VERS LE PAYS",
         "paragraph": "ENVOYEZ DE L'ARGENT DEPUIS L'ÉTRANGER VERS LE TOGO SUR LE COMPTE TMONEY ET FLOOZ DE VOTRE FAMILLE OU PROCHES"
 
     },
     "About": {
-        "paragraph": "Fini les problèmes de connexion, d'une file d'attente, d'erreurs d'orthographes, de pièce d'identité, de question/réponse,..., même au village, c'est possible que votre bénéficiaire reçoit directement de l'argent sur son téléphone ! Opération au pays permet d'envoyer facilement de l'argent vers le Togo sur un compte Flooz ou Tmoney",
+        "paragraph": "Fini les problèmes de connexion, d'une file d'attente, d'erreurs d'orthographe, de pièce d'identité, de question/réponse, ..., même au village, c'est possible que votre bénéficiaire  reçoive  directement de l'argent sur son téléphone ! Opération au pays permet d'envoyer facilement de l'argent vers le Togo sur un compte Flooz ou Tmoney",
         "Why": [
-            "Tranfert d'argent",
+            "Transfert d'argent",
             "Paiement de mega internet",
             "Paiement de crédit ",
             "Paiement des forfaits de communication"
@@ -105,27 +104,27 @@
         },
         {
           "cfa": "15 000",
-          "euro": 26
+          "euro": 25
         },
         {
           "cfa": "20 000",
-          "euro": 34
+          "euro": 33
         }, 
         {
           "cfa": "30 000",
-          "euro": 52
+          "euro": 49
         },
         {
           "cfa": "50 000",
-          "euro": 82
+          "euro": 79
         },
         {
           "cfa": "65 000",
-          "euro": 105
+          "euro": 104
         }, 
         {
           "cfa": "100 000",
-          "euro": 159
+          "euro": 158
         }
        ],
     "Contact": {
@@ -144,17 +143,17 @@
         {
             "icon": "fa fa-money",
             "title": "Montant",
-            "text": "Choisissez le montant à envoyer et le type d’opération du transfert ."
+            "text": "Choisissez le montant à envoyer et le type d’opération du transfert."
         },
         {
             "icon": "fa fa-check-square-o",
             "title": "Confirmation",
-            "text": "Confirmez le numéro du destinaire et le montant avant le règlement."
+            "text": "Confirmez le numéro du bénéficiaire et le montant avant le règlement."
         },
         {
             "icon": "fa fa-credit-card",
             "title": "Règlement",
-            "text": "Réglez votre opération avec votre carte bancaire, virement bancaire."
+            "text": "Réglez votre opération par virement bancaire, paylib ou avec une carte bancaire."
         }
         
     ]

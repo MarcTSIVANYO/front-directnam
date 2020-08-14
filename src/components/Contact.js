@@ -80,7 +80,7 @@ getYear() {
             © {this.getYear()} <strong>Opération au pays</strong>. All Rights Reserved. <a href="#" title="Conditions générales">CGU & CGV</a> 
           </div>
           <div className="credits"> 
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
           </div>
         </div>
       </footer>{/* #footer */}
