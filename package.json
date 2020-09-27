@@ -1,6 +1,6 @@
 {
-  "name": "op-pays", 
-  "homepage":"https://operation.agencehost.com/",
+  "name": "op-pays",
+  "homepage": "https://operation.agencehost.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

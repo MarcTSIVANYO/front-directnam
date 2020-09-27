@@ -7,10 +7,8 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Services from './components/Services'; 
 import Testimonials from './components/Testimonials';
-import Tarif from './components/Tarif';
-import Faq from './components/Faq'; 
-import Why from './components/Why'; 
-import Statistique from './components/Statistique';
+import Tarif from './components/Tarif'; 
+import Why from './components/Why';  
 
 // let github_link = 'https://marctsivanyo.github.io/apis/dataOperation.json';
 // $.getJSON(github_link, function(data) {
@@ -54,16 +52,13 @@ export class App extends Component {
   render() {
   return ( 
       <div> 
-          <Header data={this.state.landingPageData.Header} />
-         <Features data={this.state.landingPageData.Features} /> 
-          <About data={this.state.landingPageData.About} />
-         <Services data={this.state.landingPageData.Services} />
-          <Why /> 
+        <Header data={this.state.landingPageData.Header} />
+        <Features data={this.state.landingPageData.Features} /> 
+        <About data={this.state.landingPageData.About} />
+        <Services data={this.state.landingPageData.Services} />
+        <Why /> 
         <Testimonials data={this.state.landingPageData.Testimonials} />
-
-        {/* <Transfert data={this.state.landingPageData.Transfert} /> */} 
-        <Tarif data={this.state.landingPageData.Tarif}/> 
-        {/* <Faq/>  */} 
+        <Tarif data={this.state.landingPageData.Tarif}/>  
         <Contact data={this.state.landingPageData.Contact} />
       </div> 
   );

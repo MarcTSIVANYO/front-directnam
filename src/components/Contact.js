@@ -1,6 +1,6 @@
 // Home.js
 
-import React, { Component } from 'react'; 
+import React from 'react'; 
 import Action from './Action';
 
 class Home extends React.Component {
@@ -18,7 +18,7 @@ getYear() {
     return (
         <div id="contact">   
         
-        <Action titre="Rapides et moins chers" description="Envoyez de l'argent à vos proches au Togo. Payez en ligne, et votre bénéficiaire peut retirer l'argent instantanément dans une agence Flooz ou Tmoney." btnName="Faire un transfert!"/>
+        <Action titre="Rapide et facile" description="Assistez vos proches au Pays. Au Togo, il est possible que votre bénéficiaire peut retirer le type de service instantanément dans une agence Flooz ou Tmoney." btnName="Déclenchez une operation !"/>
           {/*==========================
     Footer
   ============================*/}
@@ -77,10 +77,7 @@ getYear() {
         </div> */}
         <div className="container">
           <div className="copyright">
-            © {this.getYear()} <strong>Opération au pays</strong>. All Rights Reserved. <a href="#" title="Conditions générales">CGU & CGV</a> 
-          </div>
-          <div className="credits"> 
-            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+            © {this.getYear()} <strong>DirectNam</strong>. All Rights Reserved. <a href="/" title="Conditions générales">CGU & CGV</a> 
           </div>
         </div>
       </footer>{/* #footer */}

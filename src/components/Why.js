@@ -42,7 +42,7 @@ class Why extends Component {
               </div> 
           </div> 
         </section> 
-        <Action titre="Envoyer de l'argent vers le Togo" description="Envois rapides et sécurisés. Nous travaillons pour vous offrir la meilleure facilité pour vos transferts." btnName="Inscrivez-vous maintenant !"/>
+        <Action titre="Faire une opération vers le Pays" description="Envois rapides et sécurisés. Nous travaillons pour vous offrir la meilleure facilité pour vos types d'opérations." btnName="Inscrivez-vous dès maintenant !"/>
         </div>
     );
   }
